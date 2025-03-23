@@ -14,11 +14,11 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 COPY ./app /code/app
 
 # Set environment variables
-ENV WANDB_API_KEY=""
-ENV WANDB_ORG=""
-ENV WANDB_PROJECT=""
-ENV WANDB_MODEL_NAME=""
-ENV WANDB_MODEL_VERSION=""
+ENV WANDB_API_KEY="2f1bb5244d748ad29251c9494f6178ac40650d43"
+ENV WANDB_ORG="khashayar-razghandi-dsr"
+ENV WANDB_PROJECT="mlops_dsr_batch_41"
+ENV WANDB_MODEL_NAME="resnet18"
+ENV WANDB_MODEL_VERSION="v0"
 
 
 EXPOSE 8080
